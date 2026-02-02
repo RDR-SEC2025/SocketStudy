@@ -54,5 +54,53 @@ Socket programming finds applications in various domains, including web developm
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
 
+ALGORITHM:-
+
+Server side:
+
+1. Start
+2. Import the socket module
+3. Create a socket using socket.socket()
+4. Display “Socket successfully created”
+5. Assign port number 12345
+6. Bind the socket to the port number
+7. Display “socket binded to 12345”
+8. Put the socket into listening mode using listen()
+9. Display “socket is listening”
+10. Stop
+
+
+Client side:
+
+1. Start
+2. Import the socket module
+3. Create a socket using socket.socket()
+4. Assign port number 12345
+5. Connect to the server using IP address 127.0.0.1 and port number
+6. Receive data from the server
+7. Decode the received data
+8. Display the received message
+9. Close the socket connection
+10. Stop
+
+
+PROGRAM:-
+
+Server side:
+
+<img width="755" height="464" alt="image" src="https://github.com/user-attachments/assets/b4e5a216-434b-496e-a237-630621c0a7ef" />
+
+
+Client side:
+
+<img width="553" height="222" alt="image" src="https://github.com/user-attachments/assets/362c0b29-b057-4aa8-8108-7767ef2abc2a" />
+
+
+OUTPUT:-
+
+<img width="940" height="236" alt="image" src="https://github.com/user-attachments/assets/d2497eed-fe2c-4ac8-8acf-7e4b17289084" />
+<img width="940" height="198" alt="image" src="https://github.com/user-attachments/assets/b37a261e-b101-47b0-9899-d2e1fa411bc1" />
+
+
 ## Result:
 Thus the study of Socket Programming Completed Successfully
