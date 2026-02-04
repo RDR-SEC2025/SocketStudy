@@ -57,7 +57,7 @@ Socket programming finds applications in various domains, including web developm
 ALGORITHM:-
 
 Server side:
-
+```
 1. Start
 2. Import the socket module
 3. Create a socket using socket.socket()
@@ -68,10 +68,10 @@ Server side:
 8. Put the socket into listening mode using listen()
 9. Display “socket is listening”
 10. Stop
-
+```
 
 Client side:
-
+```
 1. Start
 2. Import the socket module
 3. Create a socket using socket.socket()
@@ -82,7 +82,7 @@ Client side:
 8. Display the received message
 9. Close the socket connection
 10. Stop
-
+```
 
 PROGRAM:-
 
